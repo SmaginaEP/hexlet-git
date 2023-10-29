@@ -2,11 +2,14 @@
   "name": "tmp",
   "version": "1.0.0",
   "type": "module",
-  "description":  "Node.js boilerplate package",
+  "description": "Node.js boilerplate package",
   "main": "index.js",
   "scripts": {
     "test": "npx jest"
   },
   "author": "SmaginaEP",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
